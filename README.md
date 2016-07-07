@@ -1,1 +1,1 @@
-AndroidHub-LocationUtils
+AndroidHub-LocationUtils is the sample code for Location Background service , Animate marker from source location to destination , Keep marker on center position even though scale map. You can get more details https://chintankhetiya.wordpress.com/2016/06/27/how-to-zoom-scale-google-map-from-center-position-android/ —
