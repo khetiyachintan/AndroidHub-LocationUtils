@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layGetMore"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#654321"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/wp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Get More Tutorial - Click"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/gmaps" />
+
+        <Button
+            android:id="@+id/btnAnimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff8000"
+            android:text="Animate Marker" />
+
+        <Button
+            android:id="@+id/btnCenterPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0080ff"
+            android:text="Marker In Center" />
+
+        <Button
+            android:id="@+id/btnBgService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bfff00"
+            android:text="Location Update Background Service" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#123456"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By: Android Hub - CK"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>
